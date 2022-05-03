@@ -195,6 +195,10 @@ input, input:focus-visible{
     font-size: 14px;
 }
 
+header{
+    background-color: #fff;
+}
+
 header .top-header{
     border-bottom: 1px solid #edeff1;
     padding: 20px 0;
@@ -619,6 +623,63 @@ header .top-header .phones-list li i.custom-icon{
 .subscribe{
     /*padding: 120px 0;*/
 }
+
+/*Product HTML start*/
+.product-wrap {
+    padding: 100px 0 125px;
+}
+.flex-control-thumbs{
+    margin: 68px 0 0;
+}
+.flex-control-thumbs li{
+    width: calc(33.3333% - 14px);
+    padding: 7px 32px;
+    background-color: #f4f6f8;
+    height: 70px;
+}
+
+.flex-control-thumbs li:hover{
+    background-color: #ff5912;
+    opacity: 0.7;
+}
+
+.flex-control-thumbs li + li {
+    margin-left: 21px;
+}
+
+.flex-control-thumbs li img{
+    height: 100%;
+    width: auto;
+    margin: auto;
+}
+.size-radio input[type='radio']{
+    display: none;
+}
+.size-radio input[type='radio']:checked + label{
+    color: #ff5912;
+    font-size: 18px;
+}
+.size-radio label{
+    font-size: 14px;
+    color: #34404b;
+    font-family: 'Harmonia_semibold';
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.size-radio + .size-radio{
+    margin-left: 20px;
+}
+.choose-size span{
+    margin-right: 40px;
+}
+.order-form{
+    padding: 40px 0;
+    border-top: 1px solid #edeff1;
+    border-bottom: 1px solid #edeff1;
+}
+
+/*Product HTML end*/
 /* ALL STYLES END */
 
 

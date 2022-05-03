@@ -52,7 +52,7 @@
                 </div>
                 <ul class="menu-nav flex-container align-items-center">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">Products</a></li>
+                    <li><a href="category.html">Products</a></li>
                     <li><a href="">Hot Deals</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
@@ -92,14 +92,17 @@
                                 <span>Price Filter</span>
                             </div>
                             <div class="range">
-                                <div id="slider-range">
-
+                                <div id="slider-range"></div>
+                                <div class="add-range-value flex-container" >
+                                    <div class="range-input-reoup">
+                                        <label for="fromValue">From</label>
+                                        <input type="number" name="fromValue" id="fromValue" min="0">
+                                    </div>
+                                    <div class="range-input-reoup">
+                                        <label for="toValue">To</label>
+                                        <input type="number" name="toValue" id="toValue" min="0">
+                                    </div>
                                 </div>
-                                <div class="range-info">
-                                    <label for="amount">Price range:</label>
-                                    <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                                </div>
-
                             </div>
                         </div>
                         <div class="aside-section white-bg">
@@ -155,7 +158,7 @@
                         <div class="col-md-4">
                             <div class="item">
                                 <div class="item-img">
-                                    <a href="category.html">
+                                    <a href="product.html">
                                         <img src="img/item-img-1.png" alt="">
                                     </a>
                                 </div>
@@ -532,10 +535,14 @@
 <!--    FOOTER END    -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.6.0.js"></script>-->
+<!--<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>-->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
 <script src="js/plugins.min.js"></script>
 </body>
 </html>
